@@ -1,0 +1,12 @@
+<!DOCTYPE FilterScript>
+<FilterScript>
+  <filter name="Convex Hull">
+    <Param name="Simplify" type="RichBool" value="true" />
+  </filter>
+  <filter name="Compute Geometric Measures">
+    <Param name="SurfaceArea" type="RichBool" value="true" />
+  </filter>
+  
+</FilterScript>
+
+

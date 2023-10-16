@@ -1,0 +1,11 @@
+<!DOCTYPE FilterScript>
+<FilterScript>
+  <filter name="Remove Duplicate Faces" />
+  <filter name="Remove Isolated Pieces" />
+  <filter name="Close Holes">
+    <Param type="RichFloat" value="100" name="HoleSize" tooltip="Maximum hole size" description="Maximum size of a hole that can be closed" />
+  </filter>
+  <filter name="Remove Non Manifold Edges" />
+  <filter name="Invert Faces Orientation" />
+</FilterScript>
+
